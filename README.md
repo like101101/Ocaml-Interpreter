@@ -200,7 +200,7 @@ If stack is empty, throw an exception with error code 2.
   
 If the top value on the stack is not a Boolean, throw an exception with error code 1. 
   
-#Function declarations#
+# Function declarations
 
 #### 1 Call ####
   
