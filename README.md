@@ -3,7 +3,8 @@
 An interpreter in Ocaml that reading strings as code and execute by the following grammer and semantics
 
 # Grammer 
-1 Constants
+
+#### 1.Constant ####
 
 digit ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 letter ::= a-z | A-Z
 
@@ -17,7 +18,7 @@ string ::= "{ ASCII \" }"
   
 const ::= int | bool | string | name | <unit>
 
-2 Programs
+#### 2.Programs ####
   
 prog ::= coms
   
@@ -25,11 +26,11 @@ com ::= Push const | Pop | Swap | Log
   
 | Add | Sub | Mul | Div | Rem | Neg coms ::= com ; {com ; }
   
-3 Values
+#### 3.Values ####
   
 val ::= int | bool | string | unit
   
-4 Error Codes
+#### 4.Error Codes ####
   
 For part 1 you will need to support the following error codes
   
