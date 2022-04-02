@@ -32,16 +32,13 @@ val ::= int | bool | string | unit
   
 #### 4.Error Codes ####
   
-For part 1 you will need to support the following error codes
+0 no error
   
-0 1 2 3
+1 type error
   
-no error
+2 too few elements on stack
   
-type error
-  
-too few elements on stack div by 0
-  
-For this part, throwing an exception results in the program exiting immediately with with the given error code.
+3 div by 0
+
 
 
